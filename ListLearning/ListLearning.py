@@ -17,3 +17,16 @@ print(bicycles)
 
 print(bicycles.pop())
 print(bicycles)
+bicycles.pop(0)
+print(bicycles)
+bicycles.remove('redline')
+print(bicycles)
+
+bicycles.sort()
+print(bicycles)
+bicycles.sort(reverse=True)
+print(bicycles)
+bicycles.reverse()
+print(bicycles)
+
+print(len(bicycles))

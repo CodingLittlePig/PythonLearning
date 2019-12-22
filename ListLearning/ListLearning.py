@@ -14,3 +14,6 @@ print(bicycles)
 
 del bicycles[0]
 print(bicycles)
+
+print(bicycles.pop())
+print(bicycles)
